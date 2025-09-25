@@ -11,7 +11,7 @@ def main():
     print("=== RAIN DATA PREPROCESSING DEMO ===\n")
     
     # Load original data
-    df = pd.read_csv('data/raw-rain-data.csv')
+    df = pd.read_csv('../data/raw-rain-data.csv')
     print(f"📊 Original dataset: {df.shape}")
     print(f"🏛️  Unique provinces: {df['PROV_T'].nunique()}")
     print(f"📅 Year range: {df['YEAR'].min()} to {df['YEAR'].max()}")
